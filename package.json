@@ -1,9 +1,11 @@
 {
-	"name": "proxy-jobored",
+  "name": "proxy-jobored",
+  "version": "1.0",
+  "private": true,
   "dependencies": {
     "local-cors-proxy": "^1.1.0"
   },
-	"scripts": {
-		"proxy": "lcp --proxyUrl https://api.superjob.ru/2.0"
-	}
+  "scripts": {
+    "start": "lcp --proxyUrl https://api.superjob.ru/2.0"
+  }
 }
